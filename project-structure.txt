@@ -1,0 +1,17 @@
+project-name/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── utils/
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── styles.css
+├── .eslintrc.json
+├── .prettierrc
+├── jest.config.js
+├── tsconfig.json
+├── webpack.config.js
+├── package.json
+└── README.md

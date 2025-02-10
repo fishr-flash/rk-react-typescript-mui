@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  react-app:
+    build: .
+    container_name: rk-react-typescript-mui
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules  # Исключаем node_modules из синхронизации
+    environment:
+      - NODE_ENV=development
+    command: npm run start
