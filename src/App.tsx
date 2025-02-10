@@ -1,12 +1,15 @@
 import React from 'react';
 import Button from '@mui/material/Button';
 import { Box } from '@mui/material';
+import { Wrapper } from './Wrapper';
 
 function App() {
   return (
-    <Box>
-      <Button variant="contained">Hello worlds</Button>
-    </Box>
+    <Wrapper>
+      <Box>
+        <Button variant="contained">Hello Wrapper</Button>
+      </Box>
+    </Wrapper>
   );
 }
 
